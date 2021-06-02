@@ -7,6 +7,8 @@ Desenvolver uma API com Spring Boot para gerenciar nossas salas de reunião, uti
 
 ## Tecnologias
 
+## Backend
+
 * Java com Spring boot
 * Dependências 
   *  Spring Data JPA
@@ -16,3 +18,9 @@ Desenvolver uma API com Spring Boot para gerenciar nossas salas de reunião, uti
 *  Dependência de desenvolvimento
   *   Spring boot DevTools
 
+## Frontend
+
+* Angular
+  * Dependências adicionadas
+    * Bootstrap 
+    * Jquery
