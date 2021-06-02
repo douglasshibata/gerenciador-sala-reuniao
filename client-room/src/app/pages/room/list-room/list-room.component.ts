@@ -11,7 +11,7 @@ import { Observable } from 'rxjs';
 })
 export class ListRoomComponent implements OnInit {
 
-  rooms: Observable<Room[]>;
+  rooms!: Observable<Room[]>;
 
   constructor(private roomService: RoomService,
     private router: Router) { }

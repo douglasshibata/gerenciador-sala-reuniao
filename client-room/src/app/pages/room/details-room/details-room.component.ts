@@ -10,8 +10,8 @@ import { RoomService } from 'src/app/shared/services/room.service';
 })
 export class DetailsRoomComponent implements OnInit {
 
-  id: number;
-  room: Room;
+  id!: number;
+  room: Room = new Room();
 
   constructor(private route: ActivatedRoute,private router: Router,
     private roomService: RoomService) { }

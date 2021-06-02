@@ -10,8 +10,8 @@ import { RoomService } from 'src/app/shared/services/room.service';
 })
 export class UpdateRoomComponent implements OnInit {
 
-  id: number;
-  room: Room;
+  id!: number;
+  room!: Room;
   submitted = false;
 
 
